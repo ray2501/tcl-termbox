@@ -1,0 +1,21 @@
+2021-02-27  Danilo Chang
+
+	* Update README.md
+
+2021-02-26  Danilo Chang
+
+	* Add more commands (clear, present and set_cursor)
+	* Add more test cases
+	* Add variables about color
+
+2021-02-24  Danilo Chang
+
+	* Add Termbox files
+	* Add init and shutdown command
+	* Add init and shutdown test cases
+
+2021-02-23  Danilo Chang
+
+	* Add README.md and LICENSE file
+	* Dump sample extension files, update package name
+
