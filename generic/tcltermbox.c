@@ -386,7 +386,7 @@ static int POLL_EVENT_CMD(ClientData dummy, Tcl_Interp *interp, int objc, Tcl_Ob
         return TCL_ERROR;
     }
 
-    pResultStr = Tcl_NewListObj(0, NULL);
+    pResultStr = Tcl_NewListObj(6, NULL);
     Tcl_ListObjAppendElement(interp, pResultStr, Tcl_NewLongObj(event.type));
     Tcl_ListObjAppendElement(interp, pResultStr, Tcl_NewLongObj(event.mod));
     Tcl_ListObjAppendElement(interp, pResultStr, Tcl_NewLongObj(event.key));
@@ -428,7 +428,6 @@ static int TO_UNICODE_CMD(ClientData dummy, Tcl_Interp *interp, int objc, Tcl_Ob
 
 static int TO_UTF8_CMD(ClientData dummy, Tcl_Interp *interp, int objc, Tcl_Obj *const objv[])
 {
-    int ret = 0;
     long out;
     char str[7];
     int str_len;
