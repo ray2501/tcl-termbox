@@ -5,7 +5,7 @@
 
 Name:          tcl-termbox
 Summary:       Tcl bindings for termbox
-Version:       0.3
+Version:       0.4
 Release:       1
 License:       MIT
 Group:         Development/Libraries/Tcl
